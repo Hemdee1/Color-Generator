@@ -4,7 +4,7 @@ import Values from "values.js";
 
 const App = () => {
   const [value, setValue] = useState("");
-  const [number, setNumber] = useState(20);
+  const [number, setNumber] = useState(10);
   const [color, setColor] = useState([]);
   const [error, setError] = useState(false);
 

@@ -114,3 +114,16 @@ article.invert button {
   color: black;
   border: 1px solid black;
 }
+
+@media screen and (max-width: 500px) {
+  form input,
+  button {
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    border-radius: 5px;
+  }
+
+  main {
+    padding-top: 0;
+  }
+}
